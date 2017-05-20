@@ -248,7 +248,7 @@ class World extends EventEmitter {
     controls._addToWorld(this);
 
     this._controls.push(controls);
-
+    // controls._controls.autoRotate = true;
     this.emit('controlsAdded', controls);
     return this;
   }

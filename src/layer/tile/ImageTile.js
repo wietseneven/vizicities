@@ -126,10 +126,9 @@ class ImageTile extends Tile {
       y: this._tile[1],
       z: this._tile[2]
     };
-
     var url = this._getTileURL(urlParams);
-
     var image = document.createElement('img');
+    // console.log(urlParams);
 
     image.addEventListener('load', event => {
       var texture = new THREE.Texture();
@@ -167,6 +166,10 @@ class ImageTile extends Tile {
 
     // Load image
     image.src = url;
+
+    image.addEventListener('error', event => {
+      console.log(image.src);
+    }, false);
 
     this._image = image;
   }

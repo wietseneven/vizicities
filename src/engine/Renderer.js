@@ -12,7 +12,7 @@ export default function(container, antialias) {
   // TODO: Re-enable when this works with the skybox
   // renderer.setClearColor(Scene.fog.color, 1);
 
-  renderer.setClearColor(0xffffff, 1);
+  renderer.setClearColor(0x2b292e, 1);
 
   // TODO: Re-enable this when perf issues can be solved
   //
