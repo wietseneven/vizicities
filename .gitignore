@@ -44,7 +44,10 @@ node_modules
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
+### Jetbrains ###
+.idea
 
 # Thumbnails
 ._*

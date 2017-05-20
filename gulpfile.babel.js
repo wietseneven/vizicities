@@ -25,7 +25,8 @@ const exportFileName = path.basename(mainFile, path.extname(mainFile));
 
 // Remove a directory
 function _clean(dir, done) {
-  del([dir], done);
+  // del([dir], done);
+  done();
 }
 
 function cleanDist(done) {

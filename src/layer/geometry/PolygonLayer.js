@@ -134,8 +134,8 @@ class PolygonLayer extends Layer {
       colour.set(this._options.style.color);
 
       // Light and dark colours used for poor-mans AO gradient on object sides
-      var light = new THREE.Color(0xffffff);
-      var shadow  = new THREE.Color(0x666666);
+      var light = new THREE.Color(0xf7ebd0);
+      var shadow  = new THREE.Color(0xf9d68b);
 
       // For each polygon
       attributes = this._projectedCoordinates.map(_projectedCoordinates => {

@@ -314,7 +314,7 @@ class GeoJSONTile extends Tile {
     // this._mesh.add(mesh);
 
     this._ready = true;
-    console.timeEnd(this._tile);
+    // console.timeEnd(this._tile);
   }
 
   _abortRequest() {

@@ -2,7 +2,7 @@
   "name": "vizicities",
   "version": "0.3.0",
   "description": "A framework for 3D geospatial visualisation in the browser",
-  "main": "dist/vizicities.js",
+  "main": "../citystressmap.com/public/vendor/vizicities.js",
   "scripts": {
     "test": "gulp",
     "lint": "gulp lint",
