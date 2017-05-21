@@ -218,7 +218,7 @@ class Orbit extends EventEmitter {
     this._controls = new OrbitControls(world._engine._camera, world._container);
 
     // Disable keys for now as no events are fired for them anyway
-    this._controls.keys = false;
+    this._controls.keys = true;
 
     // 89 degrees
     this._controls.maxPolarAngle = 1.5533;

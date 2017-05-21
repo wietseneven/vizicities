@@ -411,7 +411,7 @@ var OrbitControls = function (object, domElement) {
 
   function dollyIn(dollyScale) {
     if (scope.object instanceof THREE.PerspectiveCamera) {
-      // console.log('dolly bier in', dollyScale);
+      console.log('dolly bier in', dollyScale);
 
       scale /= dollyScale;
 
@@ -614,7 +614,7 @@ var OrbitControls = function (object, domElement) {
 
   function handleTouchStartDolly(event) {
 
-    //console.log( 'handleTouchStartDolly' );
+    console.log( 'handleTouchStartDolly' );
 
     var dx = event.pointers[0].pageX - event.pointers[1].pageX;
     var dy = event.pointers[0].pageY - event.pointers[1].pageY;
@@ -655,7 +655,7 @@ var OrbitControls = function (object, domElement) {
 
   function handleTouchMoveDolly(event) {
 
-    //console.log( 'handleTouchMoveDolly' );
+    console.log( 'handleTouchMoveDolly' );
 
     var dx = event.pointers[0].pageX - event.pointers[1].pageX;
     var dy = event.pointers[0].pageY - event.pointers[1].pageY;
@@ -684,7 +684,7 @@ var OrbitControls = function (object, domElement) {
 
   function handleTouchMovePan(event) {
 
-    //console.log( 'handleTouchMovePan' );
+    console.log( 'handleTouchMovePan' );
 
     panEnd.set(event.deltaX, event.deltaY);
 

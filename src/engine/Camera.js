@@ -9,7 +9,7 @@ import THREE from 'three';
 export default function(container) {
   var camera = new THREE.PerspectiveCamera(45, 1, 1, 2000000);
   camera.position.x = -5000;
-  camera.position.y = 1500;
+  camera.position.y = 3500;
   camera.position.z = 5000;
 
   var updateSize = function() {
